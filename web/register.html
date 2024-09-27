@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="register-box">
+            <h1>Create an Account</h1>
+            <form action="RegisterServlet" method="post">
+                
+    
+                
+                <div class="input-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="Username" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="Email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="Password" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="Confirm_Password" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="mobile">Mobile Number:</label>
+                    <input type="tel" id="mobile" name="Mobile_Number" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="Address" required></textarea>
+                </div>
+
+                <div class="input-group">
+                    <input type="submit" value="Create Account">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
